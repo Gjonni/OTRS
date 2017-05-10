@@ -1,0 +1,35 @@
+/**
+ * @project     OTRS (http://www.otrs.org) - Agent Frontend
+ * @copyright   OTRS AG
+ * @license     AGPL (http://www.gnu.org/licenses/agpl.txt)
+ */
+
+/**
+ * @package     Skin "Default"
+ * @section     Default Settings
+ */
+
+@media screen,projection,tv,handheld {
+
+/**
+ * @subsection  Fonts
+ */
+#Header {
+    background: #324678  !important;
+}
+#ToolBar a {
+    color: #bfbaba !important;
+}
+#Navigation > li {
+    background: #5a5959  !important;
+    border-bottom: 5px solid #000;
+}
+.Value a {
+    color: #3c45bd!important;
+}
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    text-align: left;
+    position: relative;
+}
